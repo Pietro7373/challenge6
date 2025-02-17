@@ -1830,6 +1830,9 @@
   .text-\[\#1B1A53\] {
     color: #1B1A53;
   }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
   .capitalize {
     text-transform: capitalize;
   }
