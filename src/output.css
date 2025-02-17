@@ -824,20 +824,11 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
-  }
   .w-3\/10 {
     width: calc(3/10 * 100%);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
   .w-6\/10 {
     width: calc(6/10 * 100%);
@@ -1467,20 +1458,11 @@
   .bg-\[\#E5E5E5\] {
     background-color: #E5E5E5;
   }
-  .bg-\[\#ffe6e6\] {
-    background-color: #ffe6e6;
-  }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-blue-500 {
-    background-color: var(--color-blue-500);
-  }
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1669,9 +1651,6 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
-  .pt-0 {
-    padding-top: calc(var(--spacing) * 0);
-  }
   .pt-0\.5 {
     padding-top: calc(var(--spacing) * 0.5);
   }
@@ -1830,9 +1809,6 @@
   .text-\[\#1B1A53\] {
     color: #1B1A53;
   }
-  .text-red-500 {
-    color: var(--color-red-500);
-  }
   .capitalize {
     text-transform: capitalize;
   }
@@ -1959,9 +1935,6 @@
   }
   .accent-auto {
     accent-color: auto;
-  }
-  .accent-blue-500 {
-    accent-color: var(--color-blue-500);
   }
   .accent-gray-500 {
     accent-color: var(--color-gray-500);
